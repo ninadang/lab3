@@ -58,7 +58,7 @@ header img:hover{
 	-moz-transition: all 0.4s ease;
 	-o-transition: all 0.4s ease;
 	-ms-transition: all 0.4s ease;
-	transition: all 0.4s ease;   
+	transition: all 0.4s ease; 
 }
 
 figure {
@@ -88,6 +88,13 @@ figure:hover{
 	-moz-transition: all 0.2s ease;
 	-o-transition: all 0.2s ease;
 	-ms-transition: all 0.2s ease;
-	transition: all 0.2s ease;                        
+	transition: all 0.2s ease;
+
+	-webkit-transform: scale(2) rotate(360deg);
+	-moz-transform: scale(2) rotate(360deg);
+	-o-transform: scale(2) rotate(360deg);
+	-ms-transform: scale(2) rotate(360deg);
+	transform: scale(2) rotate(360deg);
+                                              
                       
 }
